@@ -54,7 +54,7 @@ config :cadet, Cadet.Repo,
   username: "postgres",
   password: "postgres",
   database: "cadet_dev",
-  hostname: "localhost",
+  hostname: "db",
   pool_size: 10
 
 config :cadet, Cadet.Auth.Guardian,
